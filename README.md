@@ -1,12 +1,12 @@
 # Workout
-A built in double-user workout tracker which tracks progress, predicts 1REP maxes and implements various data structures
+This program is a built in double-user workout tracker which tracks progress over time, separated by users, predicts 1REP maxes using the Brzycki formula, and implements various data structures like dictionaries and lists.
 
 # Creates the log to store users and lifts
 workout_logs = {}
 
 users = []
 
-# Function which shows the user's lifts having been added
+# Function which shows the user's lifts that have been added
 def show_lifts():
     if not users:
         print("No users found. Please add a user first.")
