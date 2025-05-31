@@ -1,5 +1,14 @@
-# Workout
+# Workout Tracker
 This program is a built in double-user workout tracker which tracks progress over time, separated by users, predicts 1REP maxes using the Brzycki formula, and implements various data structures like dictionaries and lists.
+
+# The Process
+1) Start by inputting a user by inputting 4.
+2) Choose a username and put in your bodyweight
+3) Then, add lifts by pressing 2
+4) You will need to input which type of lift it is (Squat/Bench/Deadlift), your rep count and the amount of weight
+5) Using the Brzycki formula, your max lift will be estimated
+6) Then, repeat 3-5 to add another lift, or press 1 to view lifts
+7) Additionally, if you need to add another user, repeat steps 1 and 2
 
 # Creates the log to store users and lifts
 workout_logs = {}
